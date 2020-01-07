@@ -1,0 +1,8 @@
+{
+    "itemGroup.yarm.yarm_group": "YARM",
+    "item.yarm.chromatic_dye": "Chromatic Dye",
+    "block.yarm.chromatic_block": "Chromatic Block",
+    "block.yarm.counter": "Counter",
+    "block.yarm.counter.tooltip": "Right Click to increase",
+    "block.yarm.counter.count": "Count: %d"
+}

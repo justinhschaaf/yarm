@@ -23,3 +23,10 @@ bin/
 # fabric
 
 run/
+
+# art assets
+
+*.aseprite
+*.pdn
+*.psd
+*.ai

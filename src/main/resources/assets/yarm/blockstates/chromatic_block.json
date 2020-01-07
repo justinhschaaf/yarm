@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "": { "model": "yarm:block/chromatic_block" }
+    }
+}

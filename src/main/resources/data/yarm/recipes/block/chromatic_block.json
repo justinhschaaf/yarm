@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " D ",
+        "DGD",
+        " D "
+    ],
+    "key": {
+        "D": {
+            "item": "yarm:chromatic_dye"
+        },
+        "G": {
+            "item": "minecraft:glowstone"
+        }
+    },
+    "result": {
+        "item": "yarm:chromatic_block"
+    }
+}

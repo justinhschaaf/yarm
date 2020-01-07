@@ -1,16 +1,8 @@
-# Fabric Example Mod
+<h1 style="text-align: center;">YARM</h1>
+<h5 style="text-align: center; color: #777;"><i>Yet Another Random Mod</i></h3>
 
-## Setup
+A mod simply to play around with [Fabric](fabricmc.net). Good ideas may get their own mod one day.
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+## WARNING!
 
-```
-./gradlew idea
-```
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Before using this mod, please **backup your world**! I'm just using this mod to learn and play around with stuff, and may break things in the process. You have been warned...

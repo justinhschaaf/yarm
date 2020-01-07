@@ -1,0 +1,194 @@
+{
+    "type": "minecraft:block",
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "yarm:chromatic_dye"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                },
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "enchantments": [
+                                        {
+                                            "enchantment": "minecraft:silk_touch",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "enchantments": [
+                                        {
+                                            "enchantment": "minecraft:fortune",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 2,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glowstone_dust"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                },
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:alternative",
+                        "terms": [
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "enchantments": [
+                                        {
+                                            "enchantment": "minecraft:silk_touch",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "condition": "minecraft:match_tool",
+                                "predicate": {
+                                    "enchantments": [
+                                        {
+                                            "enchantment": "minecraft:fortune",
+                                            "levels": {
+                                                "min": 1
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "yarm:chromatic_dye"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                },
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "min": 4,
+                "max": 4
+            },
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glowstone_dust"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                },
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:fortune",
+                                "levels": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "yarm:chromatic_block"
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:survives_explosion"
+                },
+                {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                        "enchantments": [
+                            {
+                                "enchantment": "minecraft:silk_touch",
+                                "levels": {
+                                    "min": 1
+                                }
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}
